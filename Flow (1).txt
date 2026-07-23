@@ -1,0 +1,29 @@
+1) database connection (Done)
+2) blueprint () 
+
+authentication/
+├── login.py
+├── auth.py
+├── password_hash.py
+└── session.py
+                Login Screen
+                    │
+                    ▼
+                Enter Username + Password
+                    │
+                    ▼
+                Check in users table
+                    │
+                    ▼
+                Correct?
+                    │
+                ┌────┴─────┐
+                │          │
+                Yes         No
+                │          │
+                ▼          ▼
+                Open      Invalid
+                Dashboard Password
+3) CURD Operation ()
+4) panel Creation.py ()
+5) main.py --> login check (role base access)--> on main dashbord
